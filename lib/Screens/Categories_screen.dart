@@ -22,7 +22,6 @@ class CategoriesGrid extends StatelessWidget {
     final list = Provider.of<Categoties>(context, listen: false).items;
 
     return GridView.builder(
-//      physics: ,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         childAspectRatio: 2 / 3,
